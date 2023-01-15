@@ -24,7 +24,7 @@ Using the Spotify Web API to integrate a Top Artist's , What I Listening to? , a
 
 <ul>
   <li>
-- Learning how to use Web API's to make a personalized integrated Spotify embedded player and gather data from my most recently played tracks and top artists.
+Learning how to use Web API's to make a personalized integrated Spotify embedded player and gather data from my most recently played tracks and top artists.
   </li>
   </ul>
   
