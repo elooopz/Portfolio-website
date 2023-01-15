@@ -8,7 +8,7 @@ As of now I am currenlty using it to practice my HTML/CSS skills. The webiste ad
 
 
 Works in Progress:
-| - Using the Spotify Web API to integrate a Top Artist's , What I Listening to? , and an embedded Playback app using Javascript. ( Still working on fixing mistakes I |made)
+| - Using the Spotify Web API to integrate a Top Artist's , What I Listening to? , and an embedded Playback app using Javascript. ( Still working on fixing mistakes I made)
 | - Working on Side project to add in the 'Projects List' 
 | - Mocking up a Design to make an integrated 'Resume Page'  ( This may be integrated onto the 'Welcome Screen' or an entirely different page on the website)
 
