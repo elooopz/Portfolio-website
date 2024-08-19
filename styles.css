@@ -14,7 +14,36 @@ body {
   left: 0;
   right: 0;
   z-index: 999;
+  height: 20px;
+  transition: height .5s ease;
+
 }
+
+#navbar ul li .dropdown {
+  position:absolute;
+  opacity: 0; /* Initially invisible */
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease; /* Smooth transition for opacity */
+  justify-content:left;
+}
+
+
+
+#navbar:hover{
+  height : 90px;
+}
+
+
+#navbar:hover ul li .dropdown {
+  transition-delay: 0.5s; /* Wait until the navbar finishes expanding */
+  display: block; /* Ensure dropdown is displayed */
+  opacity: 1; /* Make dropdown visible */
+  visibility: visible;
+  
+}
+
+
+
 
 #navbar ul {
   list-style: none;
@@ -22,11 +51,12 @@ body {
   padding: 0;
   display: flex;
   justify-content: right;
+
 }
 
 #navbar li {
-  display: inline-block;
-  margin-right: 1em;
+  display: block;
+  margin-right: 5em;
 }
 
 #navbar a {
@@ -36,7 +66,7 @@ body {
 }
 
 #navbar a:hover, #navbar a:active {
-  color: #0070c9;
+  color: #4b9ada;
 }
 
 /* Style the welcome section */
